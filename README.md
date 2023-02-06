@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+<img src="./src/img/REACT_COMP_SOCIAL_MEDIA.png" alt="Break down of social media">
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
