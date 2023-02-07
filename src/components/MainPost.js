@@ -21,11 +21,13 @@ const MainPost = () => {
   });
 
   return(
-    <>
+    <section className="flex outline outline-blue-500 w-2/3">
+      <div className="space-x-5 space-y-5">
       <CreatePost></CreatePost>
         {posts}
+      </div> 
       <FollowSuggestions/>
-    </>
+    </section>
   )
 }
 

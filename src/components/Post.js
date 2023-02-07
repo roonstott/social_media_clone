@@ -3,9 +3,11 @@ import PropTypes from 'prop-types'
 
 const Post = ({name, body, avatar}) => {
   return(
-    <div style={{ display: "flex" }}>
-      <img src={avatar} alt="profile" width="50px" height="50px"></img>
-      <div>
+    <div className="flex border space-x-3 space-y-2 ">
+      <div className="w-12 h-12 justify-self-auto">
+        <img src={avatar} alt="profile" className='w-12 h-12 inline-block justify-center'></img>
+      </div>
+      <div className="w-4/5 justify-self-end">
         <p>{name}</p>
         <p>{body}</p>
       </div>

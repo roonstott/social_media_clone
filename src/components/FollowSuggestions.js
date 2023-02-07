@@ -15,7 +15,7 @@ const FollowSuggestions = () => {
     return <Profile name={entry.name} avatar={entry.avatar} key={index}></Profile>
   });
   return(
-    <div>
+    <div className="w-1/3 outline outline-slate-500">
       <h3>Follow Suggestions</h3>
       {suggestions}
     </div>

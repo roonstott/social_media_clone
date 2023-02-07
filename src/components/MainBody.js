@@ -5,10 +5,10 @@ import MainPost from './MainPost';
 const MainBody = () => {
 
   return (
-    <React.Fragment>
+    <section className="flex">
       <ProfileSection></ProfileSection>
       <MainPost></MainPost>
-    </React.Fragment>
+    </section>
   )
 }
 
